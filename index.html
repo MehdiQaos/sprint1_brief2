@@ -7,24 +7,44 @@
         <style>
 
             header {
-                align-items: center;
                 display: flex;
+                height: 90px;
+                align-items: center;
+            }
+
+            header > img {
+                height: 100%;
+                width: auto;
             }
 
             header > ul {
                 display: flex;
                 list-style-type: none;
             }
+
             header > ul > li {
-                margin: 10px;
+                margin: 15px;
                 font-size: 18px;
+                font-weight: 600;
             }
-            header > ul > li > a {
+
+            a {
                 color: black;
                 text-decoration: none;
             }
-            header > ul > li > a:hover {
+
+            a:hover {
                 text-decoration: underline;
+            }
+
+            nav > ol {
+                display: flex;
+                list-style-type: none;
+                padding-left: 0;
+            }
+            
+            nav > ol > li {
+                margin-right: 2%;
             }
 
         </style>
@@ -40,6 +60,13 @@
             </ul>
         </header>
         <nav>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li>/</li>
+                <li><a href="#">Used DVDs</a></li>
+                <li>/</li>
+                <li><a href="#">Less than £10</a></li>
+            </ol>
         </nav>
         <section>
         </section>
