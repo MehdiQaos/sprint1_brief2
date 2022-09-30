@@ -51,8 +51,8 @@ section > p {
 
 .product-image {
     background-color: blueviolet;
-    min-height: 300px;
-    min-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .videos > div {
